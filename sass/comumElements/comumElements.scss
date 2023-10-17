@@ -1,0 +1,95 @@
+​.header{
+    font-size: 12px;
+    font-weight: bold;
+   }
+  
+ 
+  .arrowDown {
+    display: inline-block;
+  width: 90px;
+  margin-top: 5px;
+
+  }
+  .logoPc {
+    width: 240px;
+    margin-left: -10px;
+    margin-right: 20px;
+  }
+  ​.container00 {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+ 
+  
+  .titlePadding{
+    padding-top: 200px;
+  }
+  
+  
+  .shortTitle {
+    width: 550px;
+    margin-bottom: -25px;
+  }
+  .mediumTitle {
+    width: 650px;
+    margin-bottom: -25px;
+  }
+  
+  #button{
+    padding: 15px 35px;
+    border: 2px solid white;
+   }
+  
+   .footer {
+    background-color: black;
+    height: 15vh;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+      text-decoration: none;
+      color: white;
+      &:hover {
+        color: $link-hover;
+      }
+    }
+  }
+
+@media (max-width: 405px) {
+    .logoPc {
+      width: 180px;
+      margin-top: 15px;
+    }
+    .footer {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 350px) {
+    .logoPc {
+      width: 150px;
+      margin-top: 15px;
+   }
+  } ;
+  
+  @media (max-width: 750px) {
+    .titlePadding {
+      padding-top: 120px;
+    }
+  
+  
+    .shortTitle {
+      width: auto;
+      font-size: 50px;
+    }
+  
+  
+    .mediumTitle {
+      width: auto;
+      font-size: 50px;
+    }
+  } ;
+  
